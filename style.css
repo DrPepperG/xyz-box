@@ -1,0 +1,128 @@
+/* Created by Dr.Pepper, this is the first ever "framework" that I have ever attempted at 
+   Made for thexyznetwork.xyz but it never got used sadly
+*/
+/* Overrides */
+button, input{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.xyz.box ul{
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+/* Main Box*/
+
+.xyz.box{
+    padding: 5px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+/* Header */
+
+.xyz.box>.header{
+    margin: 5px;
+    margin-bottom: 0px;
+    background: linear-gradient(0, rgba(55, 55, 55, .9) 50%, rgb(55, 55, 55) 50%);
+}
+
+/* Header Colors*/
+
+.xyz.box>.header.blue{
+    background: linear-gradient(0, rgba(2, 108, 254, .9) 50%, rgb(2, 108, 254) 50%);
+}
+
+.xyz.box>.header.grey{
+    background: linear-gradient(0, rgba(55, 55, 55, .9) 50%, rgb(55, 55, 55) 50%);
+}
+
+/* Header Text */
+
+.xyz.box>.header>h1{
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 8px;
+}
+
+/* List Item */
+.xyz.box ul li{
+    display: inline-block;
+}
+
+.xyz.box li a, li span{
+    display: block;
+    border: rgb(31, 31, 31) solid;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 255);
+    padding: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.xyz.box li h1{
+    font-family: Calibri;
+    font-weight: normal;
+}
+
+/* Box Content */
+
+.xyz.box>.content{
+    font-family: Calibri;
+    border: rgb(31, 31, 31) solid;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 255);
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.xyz.box>.content>.info{
+    font-size: 15px;
+    padding: 15px;
+}
+
+/* Buttons */
+
+.xyz.box button, .xyz.box .positive.button, .xyz.box .negative.button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(40, 174, 20);
+    border: green 5px solid;
+}
+
+.xyz.box button.red, .xyz.box .negative.button{
+    background: rgb(175, 10, 30);
+    border: darkred 5px solid; 
+}
+
+/* Inputs */
+
+.xyz.box>.content input[type="text"], .xyz.box>.content input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Calibri;
+    border: rgb(31, 31, 31) solid;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 255);
+}
+
+.xyz.box>.content input[type="text"], .xyz.box>.content input[type="number"]{
+    border: none;
+    border-top: rgb(31, 31, 31) solid;
+    border-bottom: rgb(31, 31, 31) solid;
+}
+
+.xyz.box>.content label{
+    font-size: 15px;
+    margin-left: 5px;
+}
